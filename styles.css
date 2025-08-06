@@ -149,6 +149,10 @@ hr{
 .create-page-link:hover{
     text-decoration: underline;
 }
+a{
+    text-decoration: none;
+    color: inherit;
+}
 
 @media screen and (max-width: 768px) {
     .parent{

@@ -1,0 +1,120 @@
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Helvetica, Arial, sans-serif;
+    background-color: #f0f2f5;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 80px;
+    background-color: #f0f2f5;
+    color: #0866ff;
+    font-size: 28px;
+    font-weight: bold;
+    padding: 0 20px;
+}
+
+.logo {
+    font-size: 48px;
+    font-weight: bold;
+    color: #0866ff;
+    margin: 40px 0 10px;
+    text-align: center;
+}
+
+.container {
+    background-color: #fff;
+    width: 432px;
+    margin: 0 auto;
+    padding: 20px 16px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.2);
+    margin-top: 20px;
+}
+
+h2 {
+    font-size: 22px;
+    font-weight: 600;
+    color: #1c1e21;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+input {
+    padding: 14px 16px;
+    font-size: 17px;
+    border: 1px solid #ccd0d5;
+    border-radius: 6px;
+    background-color: #f5f6f7;
+}
+
+.gender {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 8px;
+}
+
+.gender label {
+    flex: 1;
+    padding: 8px 10px;
+    border: 1px solid #ccd0d5;
+    border-radius: 6px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 15px;
+    background-color: #f5f6f7;
+    cursor: pointer;
+}
+
+.gender input {
+    margin-right: 6px;
+}
+
+#create-button {
+    background-color: #42b72a;
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    font-size: 17px;
+    font-weight: bold;
+    border-radius: 6px;
+    cursor: pointer;
+    margin-top: 14px;
+    width: fit-content;
+    align-self: center;
+}
+
+#create-button:hover {
+    background-color: #36a420;
+}
+
+p {
+    font-size: 12px;
+    color: #606770;
+    margin-top: 16px;
+    text-align: center;
+}
+
+a {
+    color: #0866ff;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
