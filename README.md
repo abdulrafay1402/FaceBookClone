@@ -8,7 +8,7 @@ A responsive and modern Facebook login and signup page clone built with HTML and
 
 ## 🔗 Live Demo
 
-[View Live Demo](https://facebook-login-signup-clone-by-abdulrafay.vercel.app/)
+[View Live Demo](https://facebook-clone-by-abdulrafay.vercel.app/)
 
 ## ✨ Features
 
